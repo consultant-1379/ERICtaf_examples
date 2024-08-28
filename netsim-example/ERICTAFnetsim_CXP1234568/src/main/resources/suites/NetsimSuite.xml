@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NetsimSuite">
+    <test name="NetsimSuite" preserve-order="true">
+        <classes>
+            <class name="com.ericsson.cifwk.taf.demo.test.cases.NetsimTest">
+                <methods>
+                     <include name="verifyListingAllSimulation" />
+                     <include name="verifyListingNEsOfSimulation" />
+                     <include name="verifyStopOfNE" />
+                     <include name="verifyStartOfNE" />
+                     <include name="verifyCommandOnNE" />
+                     <include name="verifyMultipleCommandOnNE" />
+                     <include name="verifyCommandOnSimulation" />
+                     <include name="verifyMultipleCommandOnSimulation" />
+                 </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

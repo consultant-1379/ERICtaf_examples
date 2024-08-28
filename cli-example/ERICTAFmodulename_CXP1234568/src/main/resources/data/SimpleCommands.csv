@@ -1,0 +1,3 @@
+host,commandRef,expectedOut
+testServer,list.dir,mike
+testServer,list.dir,calc.sh

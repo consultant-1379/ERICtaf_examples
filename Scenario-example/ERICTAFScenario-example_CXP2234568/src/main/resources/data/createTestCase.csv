@@ -1,0 +1,2 @@
+feature,component,reqId,testCaseId,title,description,precondition,type,priority,executionType,status,headerExists,projectType,selectTestCase,optionName
+TAF,TAF - Core,CIS-1100,defssee-21dja-dsj3-sdj33tyhg,TORRV TEST: Test in TMS,Testing,Precondition,Functional,Normal,Automated,Approved,true,DE,Select a Test Case,Create

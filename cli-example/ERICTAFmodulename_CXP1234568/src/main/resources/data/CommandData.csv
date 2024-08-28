@@ -1,0 +1,6 @@
+command,argsCommandData,expectedOutCommandData,expectedExitCommandData,timeout
+change.dir,/tmp/clitest/,cd,0,10000
+list.dir,.,UserDetails.sh,0,10000
+print.working.dir,  ,/tmp/clitest,0,10000
+whoami,  ,root,0,10000
+echo,hello,hello,0,10000

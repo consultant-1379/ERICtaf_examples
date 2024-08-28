@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PortalTest">
+    <test name="PortalTest">
+        <classes>
+            <class name="com.ericsson.cifwk.taf.demo.test.cases.PortalTest">
+                <methods>
+                    <include name="login"/>
+                    <include name="followLink"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="addNodeMultipleDataSource">
+    <test name="Node Life Cycle Scenario" preserve-order="true">
+        <classes>
+            <class name="com.ericsson.cifwk.taf.demo.test.cases.AddNodeTest">
+                <methods>
+                    <include name="verifyAddingNodeBehavesAsExpected"/>
+                    <include name="verifyNodeIsSynced"/>
+                    <include name="verifyNodeIsDeleted"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

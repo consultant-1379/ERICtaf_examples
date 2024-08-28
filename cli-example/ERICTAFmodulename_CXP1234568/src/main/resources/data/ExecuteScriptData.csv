@@ -1,0 +1,2 @@
+executeFile,file,prompt1,prompt1response,prompt2,prompt2response,expectedExitScriptData,changeDirScriptData,fileLocation,timeoutScriptData,exitShell
+file.execute,UserDetails.sh,Enter your name:,Keith,Enter your age:,22,0,change.dir,/tmp,10000,exit

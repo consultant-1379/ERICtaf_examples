@@ -1,0 +1,9 @@
+testCaseId,X,Y,OP,OPDesc,ExitCode,Expected
+C1,1,2,+,Addition,0,3
+C2,4,5,-,Subtraction,0,-1
+C3,5,4,-,Subtraction,0,1
+C4,5,5,/,Division,0,1
+C5,2,3,*,Multiplication,0,6
+C6,abcd,2,+,Addition,1,X is not numeric
+C7,2,abcd,+,Addition,1,Y is not numeric
+C8,2.3,4.4,+,Addition,0,6.7

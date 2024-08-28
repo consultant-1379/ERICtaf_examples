@@ -1,0 +1,2 @@
+listDir,argsSequentialData,changeDir,tailFile,args2,expectedOut,expectedOut2,expectedExit,timeoutSequentialData,homeDir,exitShellSequentialData
+print.working.dir,clitest,change.dir,tail,UserDetails.sh,/tmp,UserDetails.sh,0,2000,/tmp,exit

@@ -1,0 +1,9 @@
+[  
+   {
+        "hostname": "tm",
+        "ip": "atvts2827.athtem.eei.ericsson.se",
+        "type": "UNKNOWN",
+        "ports": {"http": 80, "ssh": 22}
+    }
+]
+

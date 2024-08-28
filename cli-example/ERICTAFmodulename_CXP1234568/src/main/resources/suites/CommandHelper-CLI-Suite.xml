@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CommandHelper-CLI-Suite">
+
+    <test name="CLICommandHelperTest">
+        <classes>
+            <class name="com.ericsson.cifwk.taf.demo.test.cases.CLICommandHelperTest"/>
+        </classes>
+    </test>
+
+</suite>

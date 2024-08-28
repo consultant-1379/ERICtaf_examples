@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AddNodeSingleDataSource">
+    <test name="Add Node" preserve-order="true">
+        <classes>
+            <class name="com.ericsson.cifwk.taf.demo.test.cases.AddNodeTest">
+                <methods>
+                    <include name="addNodeSingleDataSource"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,6 @@
+testCaseId,Json Request,OP,ResponseCode,Expected
+C1,"{""variableOne"":1, ""variableTwo"":2}", +,200,3
+C2,"{""variableOne"":4, ""variableTwo"":5}", -,200,-1
+C3,"{""variableOne"":5, ""variableTwo"":5}",/,200,1
+C4,"{""variableOne"":2, ""variableTwo"":3}",*,200,6
+C5,"{""variableOne"":2.3, ""variableTwo"":4.4}", +,200,6.7

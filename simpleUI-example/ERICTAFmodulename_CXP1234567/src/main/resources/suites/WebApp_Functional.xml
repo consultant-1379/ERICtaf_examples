@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebApp_Functional">
+  <test name="WebApp_Functional">
+    <classes>
+      <class name="com.ericsson.cifwk.taf.demo.test.cases.WebApp_FunctionalTest" />
+    </classes>
+  </test>
+</suite>

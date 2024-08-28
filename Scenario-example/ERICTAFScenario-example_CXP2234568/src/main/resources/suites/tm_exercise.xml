@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tm_Exercise">
+	<test name="Tm_Exercise">
+		<classes>
+			<class name="com.ericsson.cifwk.taf.demo.test.cases.TmLoginLogoutScenario">
+			</class>
+		</classes>
+	</test>
+</suite>

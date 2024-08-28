@@ -1,0 +1,37 @@
+[
+    {
+        "hostname": "atvts3341.athtem.eei.ericsson.se",
+        "ip": "192.168.0.1",
+        "type": "gateway",
+        "users": [
+            {
+                "username": "root",
+                "password": "shroot",
+                "type": "admin"
+            }
+        ],
+        "ports": {
+            "ssh": 22
+        }
+    },
+    {
+        "hostname": "netsim",
+        "ip": "atvts3341.athtem.eei.ericsson.se",
+        "type": "netsim",
+        "users": [
+            {
+                "username": "root",
+                "password": "shroot",
+                "type": "admin"
+            },
+            {
+                "username": "netsim",
+                "password": "netsim",
+                "type": "custom"
+            }
+        ],
+        "ports": {
+            "ssh": 2202
+        }
+    }
+]
